@@ -1,12 +1,12 @@
-import {NavigationContainer} from "@react-navigation/native"
-import RootStack from "./root.stack"
+import {NavigationContainer} from '@react-navigation/native';
+import RootStack from './root.stack';
 
 const AppNavigator = () => {
-return (
-<NavigationContainer>
-    <RootStack/>
-</NavigationContainer>
-)
-}
+  return (
+    <NavigationContainer>
+      <RootStack/>
+    </NavigationContainer>
+  );
+};
 
-export default AppNavigator
+export default AppNavigator;
