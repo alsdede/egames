@@ -15,7 +15,13 @@ const RootStack = () => {
             name={HOME}
             component={HomeScreen}
             />
-        
+          <Stack.Screen
+            options={{
+                headerShown:false
+            }}
+            name={SCHEDULE}
+            component={ScheduleScreen}
+            />
         </Stack.Navigator>
     )
 }

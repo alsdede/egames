@@ -1,5 +1,4 @@
 import { Text as TextNative,TextProps as TextPropsNative,TextStyle } from "react-native"
-import { getFontSize } from "./Text.handler"
 import {theme} from "styles"
 
 
@@ -19,7 +18,7 @@ const Text = ({children,color=theme.colors.neutrals[1000],size="md",weight="medi
         fontFamily:theme.fonts.family[weight]
 
     } 
-    console.log("styles", styles)
+   
     return (
     <TextNative {...extraProps} style={styles}>
         {children}
