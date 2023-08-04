@@ -12,16 +12,17 @@ const RootStack = () => {
         options={{
           headerShown:false
         }}
-        name={HOME}
-        component={HomeScreen}
+        name={SCHEDULE}
+        component={ScheduleScreen}
       />
       <Stack.Screen
         options={{
           headerShown:false
         }}
-        name={SCHEDULE}
-        component={ScheduleScreen}
+        name={HOME}
+        component={HomeScreen}
       />
+   
     </Stack.Navigator>
   );
 };

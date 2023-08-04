@@ -16,6 +16,7 @@
     "@shopify/flash-list": "1.4.3",
     "axios": "^1.4.0",
     "expo": "~49.0.5",
+    "expo-dev-client": "~2.4.6",
     "expo-font": "~11.4.0",
     "expo-splash-screen": "~0.20.5",
     "expo-status-bar": "~1.6.0",

@@ -34,8 +34,15 @@ const theme = {
         medium:'Poppins_500Medium',
         semiBold:'Poppins_600SemiBold',
         bold:'Poppins_700Bold'
-      }
-    }
+      },
+   
+    },
+  spaces:{
+    xs:12,
+    sm:16,
+    md:20,
+    lg:24
+  }
 };
 
 export default theme;
